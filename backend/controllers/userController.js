@@ -73,7 +73,7 @@ const registerUser = asyncHandler(async (req, res) => {
 // route    POST /api/users/logout
 // @access  Public
 
-//To register a new user
+
 const logoutUser = asyncHandler(async (req, res) => {
     res.cookie('jwt', '', {
         httpOnly: true,
